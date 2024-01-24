@@ -1,0 +1,184 @@
+:root {
+    --bg-color: #09729f;
+    --bg2-color: #09729fb4;
+    --bg3-color:  #09729f00;
+    --bd-color: #ffdd0032;
+    --f-color: #ffffff;
+    --bot-color: #f7eb07;
+    --inp-color: #b6b2b2;
+    
+}
+
+
+*{  
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inicio{
+    display: flex;
+    height: 80px;
+    background-color: var(--bg2-color);
+    border: 2px solid var(--bd-color);
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px var(--bot-color);
+    margin: 5px;
+
+}
+
+.logo{
+    color: var(--f-color);
+    display: flex;
+    background-color: var(--bg3-color);
+    font-size: medium;
+    color: var(--f-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color: var(--inp-color);
+    
+}
+
+.area-login{
+    display: flex;
+    background-color: var(--bg3-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.botao button{
+    width: 50px;
+    height: 25px;
+    background-color: var(--bg3-color);
+    border: 1px solid var(--bd-color);
+    border-radius: 5px;
+    color: var(--f-color);
+    margin-right: 5px;
+}
+
+.senha input{
+    background-color: var(--inp-color);
+    border: 3px solid var(--bd-color);
+    width: 150px;
+    height: 15px;
+    margin: 2px;
+}
+
+.email input{
+    background-color: var(--inp-color);
+    border: 3px solid var(--bd-color);
+    width: 150px;
+    height: 15px;
+    margin: 2px;
+}
+
+img{
+    width: 95px;
+    background-color: var(--bg3-color);
+}
+
+
+body{
+    background-image: url(Img/1.thumb-1920-911401.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+input, select{
+    background-color: var(--inp-color);
+}
+
+.conteiner{
+    display: flex; 
+    justify-content: end;
+}
+
+
+.Cadastro fieldset {
+    background-color: var(--bg2-color);
+    box-shadow: 0px 0px 10px var(--bot-color);
+    margin-bottom: 20px;
+    border: 2px solid var(--bd-color);
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    margin: 10px;
+}
+
+.Cadastro, label {
+color: var(--inp-color);
+}
+
+.Cadastro legend{
+    color: var(--f-color);
+    background-color: var(--bg-color);
+    border: 2px solid var(--bd-color);
+    border-radius: 10px;
+
+}
+
+
+.Cadastro input {
+    padding: 5px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid var(--bd-color);
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+select {
+    margin-top: 5px;
+    width: 200px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.Cadastro button {
+    background-color: var(--bg3-color);
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid var(--bd-color);
+    border-radius: 10px;
+    color: var(--f-color);
+    margin-top: 5px;   
+}
+
+
+button:hover {
+    background-color: var(--bd-color);
+    color: var(--bot-color);
+    
+}
+
+.check input{
+    width: 15px;
+    margin-bottom: auto;
+    
+}
+
+#copyright{
+    background-color: var(--bg2-color);
+    box-shadow: 0px 0px 10px var(--bot-color);
+    margin: 5px;
+    color: var(--f-color);
+    padding: 14px;
+    text-align: center;
+}
+
+#copyright a{
+    color: var(--bot-color);
+
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastramento/ Testes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <audio src="music/tomp3.cc - One Piece To The Grand Line Epic Orchestral Cinematic Remix.mp3" autoplay loop>
+        <source src="music/tomp3.cc - One Piece To The Grand Line Epic Orchestral Cinematic Remix.mp3" type="audio/mpeg">
+
+     </audio>
+    <div class="inicio">
+        <div class="logo">
+            <img src="Img/pngwing.com.png" alt="logo">
+            <h1>Mugiwaras</h1>
+        </div>
+        
+        <div class="area-login">    
+            <div>
+                <label class="email">
+                    E-mail:
+                    <input type="email" name="usuario" placeholder="Insira seu e-mail" autocomplete="off" autofocus required >
+                </label>
+            </div>
+                    
+            <div class="senha">
+                <label>
+                    Senha:
+                    <input type="password" placeholder="Insira sua senha" required minlength="8" >
+                </label>
+            </div>
+            <div class="botao">
+                <button>Entrar</button>
+            </div>
+        </div>   
+        
+    </div>
+</header>
+
+
+<body>
+
+    <div class="conteiner">   
+        <section class="Cadastro">   
+            <form action="cadastro.html" method="post">
+                <fieldset>
+                    <h2>Cadastramento:</h2>
+                    <div>
+                        <label>Nome Completo: <br>
+                            <input type="text" name="nome" placeholder="Nome Completo" required >
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label>Nome da Mãe: <br>
+                            <input type="text" name="nome_da_mae" placeholder="Nome da Mãe">
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label>Nome do Pai: <br>
+                            <input type="text" name="nome_do_pai" placeholder="Nome do Pai">
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label>Data de Nascimento: <br>
+                            <input type="date" name="data_nascimento" required max="2006-01-01">
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label>Den Den Mushi: <br>
+                            <input type="tel" name="celular" placeholder="(xx) xxxxx-xxxx" maxlength="11" >
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label>Email: <br>
+                            <input type="email" name="usuario" placeholder="exemplo@email.com" required >
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label>Senha: <br>
+                            <input type="password" name="senha" placeholder="Senha" minlength="8" >
+                        </label>
+                    </div>
+                    <div class="container2">
+                        <div>
+                            <label>Mares:  <br>
+                                <select name="Mares">
+                                    <option value=""selected></option>
+                                    <option value="All Blue">All Blue</option>
+                                    <option value="Calm Belt">Calm Belt</option>
+                                    <option value="EasT Blue">East Blue</option>
+                                    <option value="Grand Line">Grand Line</option>
+                                    <option value="Lost Camp">North Blue</option>
+                                    <option value="Novo Mundo">Novo Mundo</option>
+                                    <option value="Nuvens Marítimas">Nuvens Marítimas</option>
+                                    <option value="South Blue">South Blue</option>
+                                    <option value="West Blue">West Blue</option>
+                                </select>
+                            </label>
+                        </div>
+                    
+                    
+                        <div>
+                            <label>Sexo: <br>
+                                <select name="sexo">
+                                    <option value=""selected></option>
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Feminino">Feminino</option>
+                                    <option value="Prefiro não Responder">Prefiro não Responder</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div>
+                            <label>Raça: <br>
+                                <select name="Raça">
+                                    <option value=""selected></option>
+                                    <option value="Humanos">Humanos</option>
+                                    <option value="Tribo Kumate">Tribo Kumate</option>
+                                    <option value="Tribo Kuja">Tribo Kuja</option>
+                                    <option value="Tribo Torino">Tribo Torino</option>
+                                    <option value="Nobres Mundiais">Nobres Mundiais</option>
+                                    <option value="Gigantes">Gigantes</option>
+                                    <option value="Minks">Minks</option>
+                                    <option value="Tribo dos Braços Longos">Tribo dos Braços Longos</option>
+                                    <option value="Tribo das Pernas Longas">Tribo das Pernas Longas</option>
+                                    <option value="Tribo dos Três Olhos">Tribo dos Três Olhos</option>
+                                    <option value="Anões">Anões</option>
+                                    <option value="Kinokobito">Kinokobito</option>
+                                    <option value="Lunares">Lunares</option>
+                                    <option value="Homens-peixe">Homens-peixe</option>
+                                    <option value="Sereianos">Sereianos</option>
+                                    <option value="Skypieans">Skypieans</option>
+                                    <option value="Shandias">Shandias</option>
+                                </select>
+
+                            </label>
+
+                        </div>
+                    </div>
+                    <div class="check">
+                        <label>Concordo com os termos de uso.</label>
+                            <input type="checkbox" name="concordar_termos">
+                    </div>
+                    
+                    <div class="botao2">
+                        <button>Fazer Cadastro</button>
+                    </div>
+                
+                </fieldset>
+
+            
+                
+            </form>
+        </section>
+
+        
+    </div>
+    <footer>
+        <div id="copyright">
+            Desenvolvido por <a href="https://www.instagram.com/mhenrique36/" target="_blank" >@mhenrique36</a>
+        </div>
+    </footer>
+</body>
+</html>

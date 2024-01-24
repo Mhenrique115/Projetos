@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-style: arial;
+    background-color: #a8a8a8;
+}
+
+header{
+    text-align: center;
+    color: #464646;
+    border-bottom: solid 1px #e7e4e4;
+}
+
+header .nome{
+    font-size: 40px;
+    text-transform: bold;
+    color: #000;
+}
+
+#geral{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-sylvester{
+    display: flex;
+    justify-content: center;
+}
+
+#geral .img-sylvester figure img{
+    width: 250px;
+}
+
+#geral .img-sylvester figure {
+    width: 250px;
+    position: relative;
+    background-color: #e7e4e4;
+}
+  
+  #geral .img-sylvester figure figcaption {
+    font-size: 12px;
+    width: 100%; 
+    background-color: #e7e4e4;
+    color: #464646; 
+    padding-bottom: 4px;
+    box-sizing: border-box;
+  }
+
+  .descrição{
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+
+  }
+
+  .descrição a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .time-line {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .time-line-body .premio{
+    font-size: 18px;
+    margin-left: 25px;
+  }
+
+  .time-line-body strong{
+    font-size: 16px;
+    color: #000;
+        
+  }
+
+  .time-line-body li{
+    color: #5a5959;
+    padding: 2px;
+  }
+
+ .barra {
+    height: 1px;
+    background-color: #e7e4e4;
+  }
+
+  footer .wikipedia{
+    text-align: center;
+    margin-left: 25px;
+    color: #5a5959;
+  }
+
+  footer .wikipedia a{
+    text-decoration: none;
+    color: #5a5959;
+  }
+
+  footer .copyright {
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    color: #a8a8a8;
+    background-color: #000;
+
+}
+  
+footer .copyright a {
+    text-decoration: none;
+    color: #a8a8a8;
+} 
+
+#geral .descrição a:hover, footer .copyright a:hover,footer .wikipedia a:hover {
+    color: #e7e4e4;
+  }
+
+
+  @media (max-width: 400px) {
+    #geral .descrição{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    footer .wikipedia {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+  }
