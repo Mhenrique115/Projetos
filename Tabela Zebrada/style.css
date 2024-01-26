@@ -1,0 +1,38 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: black;
+}
+
+
+table{
+    
+    text-align: center;
+    width: 600px;
+    background-color: #31382a;
+    border: #636f58 solid 4px;
+}
+
+thead{
+    text-align: center;
+    color: #636f58;
+    background-color: #31382a;  
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #636f58;
+    color: #31382a;
+    
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #31382a;
+    color: #636f58;
+
+}
